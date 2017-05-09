@@ -2,7 +2,7 @@ var bodyWidth = $("body").css("width");
 $("div.items").css("width",(bodyWidth.substring(0,bodyWidth.length-2)-380)+"px");
 
 //参与抽奖人数初始值
-var itemCount= 120;
+var itemCount= 999;
 //跑马灯循环
 var tx;
 var runtx;
